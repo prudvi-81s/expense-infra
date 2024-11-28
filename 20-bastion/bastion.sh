@@ -31,7 +31,7 @@ else
 fi
 
 # mysql
-dnf install mysql -y
+yum install mysql -y
 VALIDATE $? "Install mysql"
 
 # docker
